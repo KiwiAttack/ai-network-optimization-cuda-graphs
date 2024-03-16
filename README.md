@@ -1,0 +1,1 @@
+# Leistungsverbesserung-bei-Training-und-Inferenz-von-KI-Netzwerken-Eine-Evaluation-von-CUDA-Graphs
