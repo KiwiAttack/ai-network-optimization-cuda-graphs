@@ -17,10 +17,18 @@ For each architecture, experiments were performed with and without the use of CU
 The profiling data includes runtime measurements, CPU and GPU utilization profiles, as well as traces for training and inference runs.
 
 ## Repository Structure
-huggingface/: Contains the Python source code for model implementation and inference on ViT and timeSformer.
-Cifar10/: Contains the Python source code for model implementation, training and inference on a classic CNN.
-./log/: Includes the profiling data files generated during the experiments.
-README.md: This file, providing an overview of the repository.
+- **huggingface/:** Contains the Python source code for model implementation and inference on ViT and TimeSformer.
+- **Cifar10/:** Contains the Python source code for model implementation, training and inference on a classic CNN.
+- **./log/:** Includes the profiling data files generated during the experiments.
+- **README.md:** This file, providing an overview of the repository.
+
+## Datasets
+The actual training and inference datasets used in the experiments are not included in this repository due to potential data privacy concerns. 
+- CNN used the [Cifar-10 Dataset](https://www.cs.toronto.edu/~kriz/cifar.html)
+- ViT used the [ImageNet 1000 (mini)](https://www.kaggle.com/datasets/ifigotin/imagenetmini-1000) from Kaggle
+- TimeSformer used 50 videos from the [Kinetics dataset](https://github.com/cvdfoundation/kinetics-dataset)
+  
+The datasets employed are described in detail in the bachelor's thesis.
 
 ## Dependencies
 The code was implemented using the following dependencies:
